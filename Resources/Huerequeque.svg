@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6e6bf0"/>
+      <stop offset="100%" stop-color="#4441bd"/>
+    </linearGradient>
+    <clipPath id="ctile">
+      <rect width="64" height="64" rx="0"/>
+    </clipPath>
+  </defs>
+  <rect width="64" height="64" rx="0" fill="url(#tile)"/>
+  <g clip-path="url(#ctile)">
+    
+    <!-- Pata zen apoyada (una sola pata larga de huerequeque) -->
+    <path fill="none" stroke="#fff8ea" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" d="
+      M 21.8 43.2 L 21.8 54.2
+      M 16.2 54.2 L 28.0 54.2
+    "/>
+    <!-- Pata recogida en equilibrio -->
+    <path fill="none" stroke="#fff8ea" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" d="
+      M 26.5 44.0 L 30.2 48.0 L 25.5 50.2
+    "/>
+
+    <!-- Silueta principal del huerequeque: cabeza generosa, pico corto firme, pecho amplio, cola elegante -->
+    <path fill="#fff8ea" d="
+      M 17.8 18.2
+      C 17.8 10.6, 25.2 7.2, 32.8 8.8
+      C 36.8 9.7, 39.6 12.6, 40.4 16.0
+      L 49.4 18.2
+      C 50.4 18.5, 50.4 19.8, 49.3 20.1
+      L 40.2 22.8
+      C 38.6 25.6, 36.2 27.2, 35.4 29.6
+      C 34.4 32.6, 35.2 38.6, 32.0 42.8
+      C 29.0 46.6, 24.4 47.4, 19.6 46.8
+      L 10.0 51.6
+      C 8.7 52.2, 7.6 51.0, 8.5 49.8
+      L 13.4 42.4
+      C 9.6 38.0, 9.8 30.2, 15.2 25.6
+      C 17.4 23.7, 17.8 21.2, 17.8 18.2 Z
+    "/>
+
+    <!-- Ceja distintiva del huerequeque (Burhinus superciliaris) -->
+    <path fill="none" stroke="#5855d6" stroke-width="2.1" stroke-linecap="round" d="
+      M 24.4 12.6 Q 29.4 10.6 34.6 12.8
+    "/>
+
+    <!-- Ojo zen cerrado con expresion serena -->
+    <path fill="none" stroke="#5855d6" stroke-width="2.6" stroke-linecap="round" d="
+      M 25.4 17.8 Q 29.8 21.6 34.4 17.6
+    "/>
+
+    <!-- Pequeña sonrisa serena bajo el pico -->
+    <path fill="none" stroke="#5855d6" stroke-width="1.8" stroke-linecap="round" d="
+      M 37.8 21.6 Q 40.0 22.8 42.0 21.4
+    "/>
+
+    <!-- Recorte negativo indigo separando el candado y el ala del pecho -->
+    <path fill="none" stroke="#5855d6" stroke-width="2.6" stroke-linecap="round" d="
+      M 15.6 39.2 C 20.2 40.6, 26.8 38.4, 29.6 32.8
+    "/>
+
+    <!-- Contorno separador indigo detras del candado para efecto papel recortado (usa el gradiente del fondo) -->
+    <path fill="none" stroke="url(#tile)" stroke-width="6.4" stroke-linecap="round" d="
+      M 40.2 37.8 V 33.0 A 5.4 5.4 0 0 1 51.0 33.0 V 37.8
+    "/>
+    <rect x="34.2" y="35.6" width="22.8" height="20.4" rx="6.2" fill="url(#tile)"/>
+
+    <!-- Candado zen ambar (el unico acento funcional) -->
+    <path fill="none" stroke="#ffbd45" stroke-width="3.4" stroke-linecap="round" d="
+      M 40.2 38.0 V 33.0 A 5.4 5.4 0 0 1 51.0 33.0 V 38.0
+    "/>
+    <rect x="36.2" y="37.4" width="18.8" height="16.8" rx="4.6" fill="#ffbd45"/>
+    <circle cx="45.6" cy="44.2" r="2.25" fill="#5855d6"/>
+    <path fill="none" stroke="#5855d6" stroke-width="2.0" stroke-linecap="round" d="M 45.6 45.8 V 49.4"/>
+
+    <!-- Punta del ala crema abrazando suavemente el candado (gesto del oficio!) -->
+    <path fill="#fff8ea" d="
+      M 27.4 30.8
+      C 32.4 29.8, 37.4 31.8, 39.2 35.8
+      C 40.1 37.8, 38.4 39.6, 36.2 39.2
+      C 33.2 38.6, 30.0 37.0, 27.6 34.4 Z
+    "/>
+  
+  </g>
+</svg>
